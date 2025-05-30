@@ -4,7 +4,7 @@ library(dplyr)
 library(ggplot2)
 
 # Set working directory
-setwd("/Users/ruofany/Library/CloudStorage/OneDrive-Personal/affair/mis/CF/05152025_rrnaseq_DPM/")
+setwd("/05152025_rrnaseq_DPM/")
 
 # Read count data
 data <- read.delim("combine1.txt", header = TRUE, check.names = FALSE)
